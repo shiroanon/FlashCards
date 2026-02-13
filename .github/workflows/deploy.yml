@@ -25,7 +25,7 @@ jobs:
         run: bun install
 
       - name: Build
-        run: bun run build
+        run: BASE_PATH='/FlashCards' bun run build
         env:
           BASE_PATH: '/FlashCards'
 
