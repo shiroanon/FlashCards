@@ -1,0 +1,316 @@
+[
+    {
+        "id": "intro",
+        "title": "Introduction to Flashcards",
+        "description": "Learn the basics of this app.",
+        "cards": [
+            {
+                "front": "# Welcome\nClick this card to flip it!",
+                "back": "You found the back! **Markdown** is supported."
+            },
+            {
+                "front": "Math Example\n\n$$ E = mc^2 $$",
+                "back": "Albert Einstein's famous equation."
+            },
+            {
+                "front": "Image Example\n\n![Svelte Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png)",
+                "back": "This is the Svelte logo."
+            }
+        ]
+    },
+    {
+        "id": "math-101",
+        "title": "Math 101",
+        "description": "Basic Calculus and Algebra.",
+        "cards": [
+            {
+                "front": "What is the derivative of $x^2$?",
+                "back": "$$ \\frac{d}{dx} x^2 = 2x $$"
+            },
+            {
+                "front": "What is the integral of $1/x$?",
+                "back": "$$ \\int \\frac{1}{x} dx = \\ln|x| + C $$"
+            },
+            {
+                "front": "Quadratic Formula",
+                "back": "$$ x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} $$"
+            }
+        ]
+    },
+    {
+        "id": "coding-concepts",
+        "title": "Coding Concepts",
+        "description": "Programming fundamentals.",
+        "cards": [
+            {
+                "front": "What is a **Closure**?",
+                "back": "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment)."
+            },
+            {
+                "front": "Big O of Binary Search?",
+                "back": "$$ O(\\log n) $$"
+            }
+        ]
+    },
+    {
+        "id": "reported-statements",
+        "title": "Direct to Indirect: Statements",
+        "description": "Practice converting 20 assertive sentences, focusing on tense and pronoun changes.",
+        "cards": [
+            {
+                "front": "1. Change to Indirect:\n> He said, \"I work in a factory.\"",
+                "back": "He said that **he worked** in a factory.\n*(Simple Present \u2192 Simple Past)*"
+            },
+            {
+                "front": "2. Change to Indirect:\n> She said, \"I am reading a book.\"",
+                "back": "She said that **she was reading** a book.\n*(Present Continuous \u2192 Past Continuous)*"
+            },
+            {
+                "front": "3. Change to Indirect:\n> They said, \"We have finished the job.\"",
+                "back": "They said that **they had finished** the job.\n*(Present Perfect \u2192 Past Perfect)*"
+            },
+            {
+                "front": "4. Change to Indirect:\n> He said, \"I have been waiting for hours.\"",
+                "back": "He said that **he had been waiting** for hours.\n*(Present Perfect Cont. \u2192 Past Perfect Cont.)*"
+            },
+            {
+                "front": "5. Change to Indirect:\n> John said, \"I bought a new laptop.\"",
+                "back": "John said that **he had bought** a new laptop.\n*(Simple Past \u2192 Past Perfect)*"
+            },
+            {
+                "front": "6. Change to Indirect:\n> She said, \"I was walking down the street.\"",
+                "back": "She said that **she had been walking** down the street.\n*(Past Continuous \u2192 Past Perfect Continuous)*"
+            },
+            {
+                "front": "7. Change to Indirect:\n> He said, \"I had already eaten.\"",
+                "back": "He said that **he had already eaten**.\n*(Past Perfect remains unchanged)*"
+            },
+            {
+                "front": "8. Change to Indirect:\n> The boy said, \"I will call you later.\"",
+                "back": "The boy said that **he would call me** later.\n*(Will \u2192 Would)*"
+            },
+            {
+                "front": "9. Change to Indirect:\n> She said, \"I can swim well.\"",
+                "back": "She said that **she could swim** well.\n*(Can \u2192 Could)*"
+            },
+            {
+                "front": "10. Change to Indirect:\n> They said, \"We may go to Paris.\"",
+                "back": "They said that **they might go** to Paris.\n*(May \u2192 Might)*"
+            },
+            {
+                "front": "11. Change to Indirect:\n> He said, \"I must finish this report.\"",
+                "back": "He said that **he had to finish that** report.\n*(Must \u2192 Had to)*"
+            },
+            {
+                "front": "12. Change to Indirect:\n> She said, \"I should visit the dentist.\"",
+                "back": "She said that **she should visit** the dentist.\n*(Should remains unchanged)*"
+            },
+            {
+                "front": "13. Change to Indirect:\n> Tom said, \"I am meeting my brother **tomorrow**.\"",
+                "back": "Tom said that he was meeting his brother **the next day** (or the following day)."
+            },
+            {
+                "front": "14. Change to Indirect:\n> She said, \"I saw him **yesterday**.\"",
+                "back": "She said that she had seen him **the day before** (or the previous day)."
+            },
+            {
+                "front": "15. Change to Indirect:\n> He said, \"I am busy **now**.\"",
+                "back": "He said that he was busy **then**."
+            },
+            {
+                "front": "16. Change to Indirect:\n> They said, \"We moved **here** two years **ago**.\"",
+                "back": "They said that they had moved **there** two years **before**."
+            },
+            {
+                "front": "17. Change to Indirect:\n> She said, \"**This** is my favorite book.\"",
+                "back": "She said that **that** was her favorite book."
+            },
+            {
+                "front": "18. Exception Rule:\n> He **says**, \"I am happy.\"",
+                "back": "He **says** that **he is** happy.\n*(Reporting verb is present tense \u2192 No tense change)*"
+            },
+            {
+                "front": "19. Exception Rule:\n> The teacher said, \"The sun rises in the east.\"",
+                "back": "The teacher said that the sun **rises** in the east.\n*(Universal Truth \u2192 No tense change)*"
+            },
+            {
+                "front": "20. Change to Indirect:\n> Mary said, \"If I had money, I would travel.\"",
+                "back": "Mary said that if **she had** money, she **would travel**.\n*(Unreal past conditionals often remain unchanged)*"
+            }
+        ]
+    },
+    {
+        "id": "reported-questions",
+        "title": "Direct to Indirect: Questions",
+        "description": "Practice 20 interrogative sentences (Yes/No and WH- questions).",
+        "cards": [
+            {
+                "front": "1. Change to Indirect:\n> He asked, \"Do you like pizza?\"",
+                "back": "He asked **if** (or whether) I **liked** pizza.\n*(Remove 'do', change to past)*"
+            },
+            {
+                "front": "2. Change to Indirect:\n> She asked him, \"Did you see the movie?\"",
+                "back": "She asked him **if he had seen** the movie.\n*(Did \u2192 Past Perfect)*"
+            },
+            {
+                "front": "3. Change to Indirect:\n> They asked, \"Are you coming with us?\"",
+                "back": "They asked **if I was coming** with them."
+            },
+            {
+                "front": "4. Change to Indirect:\n> He asked, \"Have you finished?\"",
+                "back": "He asked **if I had finished**."
+            },
+            {
+                "front": "5. Change to Indirect:\n> She asked, \"Will you help me?\"",
+                "back": "She asked **if I would help** her."
+            },
+            {
+                "front": "6. Change to Indirect:\n> Tom asked, \"Can you speak French?\"",
+                "back": "Tom asked **if I could speak** French."
+            },
+            {
+                "front": "7. Change to Indirect:\n> He asked, \"Is this your pen?\"",
+                "back": "He asked **if that was** my pen."
+            },
+            {
+                "front": "8. Change to Indirect:\n> The stranger asked, \"**Where** is the post office?\"",
+                "back": "The stranger asked **where the post office was**.\n*(WH-word acts as connector; Verb goes to the end)*"
+            },
+            {
+                "front": "9. Change to Indirect:\n> She asked, \"**What** are you doing?\"",
+                "back": "She asked **what I was doing**."
+            },
+            {
+                "front": "10. Change to Indirect:\n> He asked, \"**Who** broke the vase?\"",
+                "back": "He asked **who had broken** the vase."
+            },
+            {
+                "front": "11. Change to Indirect:\n> They asked, \"**When** will the train arrive?\"",
+                "back": "They asked **when the train would** arrive."
+            },
+            {
+                "front": "12. Change to Indirect:\n> My mom asked, \"**Why** did you come home late?\"",
+                "back": "My mom asked **why I had come** home late."
+            },
+            {
+                "front": "13. Change to Indirect:\n> The teacher asked, \"**How** do you solve this?\"",
+                "back": "The teacher asked **how I solved** that."
+            },
+            {
+                "front": "14. Change to Indirect:\n> He asked, \"**Which** dress do you prefer?\"",
+                "back": "He asked **which dress I preferred**."
+            },
+            {
+                "front": "15. Change to Indirect:\n> She asked, \"**Whose** car is this?\"",
+                "back": "She asked **whose car that was**."
+            },
+            {
+                "front": "16. Change to Indirect:\n> He asked me, \"Do you know where she lives?\"",
+                "back": "He asked me **if I knew** where she **lived**."
+            },
+            {
+                "front": "17. Change to Indirect:\n> She asked, \"Must I leave now?\"",
+                "back": "She asked **if she had to** leave **then**."
+            },
+            {
+                "front": "18. Change to Indirect:\n> He asked, \"May I come in?\"",
+                "back": "He asked **if he might** come in."
+            },
+            {
+                "front": "19. Change to Indirect:\n> They asked, \"Don't you like ice cream?\" (Negative Question)",
+                "back": "They asked **if I didn't like** ice cream."
+            },
+            {
+                "front": "20. Change to Indirect:\n> He asked, \"Where have you been?\"",
+                "back": "He asked **where I had been**."
+            }
+        ]
+    },
+    {
+        "id": "reported-imperatives-exclamations",
+        "title": "Direct to Indirect: Commands & Exclamations",
+        "description": "Practice 20 examples including orders, requests, advice, and exclamations.",
+        "cards": [
+            {
+                "front": "1. Change to Indirect:\n> The teacher said, \"**Sit down**.\"",
+                "back": "The teacher **ordered** (or told) us **to sit down**.\n*(Use infinitive 'to')*"
+            },
+            {
+                "front": "2. Change to Indirect:\n> She said to him, \"**Please help** me.\"",
+                "back": "She **requested** him **to help** her.\n*(Please \u2192 requested)*"
+            },
+            {
+                "front": "3. Change to Indirect:\n> The doctor said, \"**Don't smoke**.\"",
+                "back": "The doctor **advised** him **not to smoke**."
+            },
+            {
+                "front": "4. Change to Indirect:\n> He said to the child, \"**Don't touch** the fire!\"",
+                "back": "He **warned** (or forbade) the child **not to touch** the fire."
+            },
+            {
+                "front": "5. Change to Indirect:\n> The general said to the soldiers, \"**March forward**!\"",
+                "back": "The general **commanded** the soldiers **to march forward**."
+            },
+            {
+                "front": "6. Change to Indirect:\n> My mother said, \"**Work hard** for your exam.\"",
+                "back": "My mother **advised** (or urged) me **to work hard** for my exam."
+            },
+            {
+                "front": "7. Change to Indirect:\n> He said, \"**Let's go** for a walk.\"",
+                "back": "He **suggested** (or proposed) that **they should go** for a walk.\n*(OR: He suggested going for a walk)*"
+            },
+            {
+                "front": "8. Change to Indirect:\n> She said, \"**Let me** explain.\"",
+                "back": "She **asked** (or requested) **to be allowed** to explain."
+            },
+            {
+                "front": "9. Change to Indirect:\n> He said, \"**Alas!** I have lost my phone.\"",
+                "back": "He **exclaimed with sorrow** that **he had lost** his phone."
+            },
+            {
+                "front": "10. Change to Indirect:\n> The players said, \"**Hurrah!** We won the match.\"",
+                "back": "The players **exclaimed with joy** that **they had won** the match."
+            },
+            {
+                "front": "11. Change to Indirect:\n> She said, \"**Wow!** What a beautiful painting.\"",
+                "back": "She **exclaimed with wonder** that the painting **was very beautiful**."
+            },
+            {
+                "front": "12. Change to Indirect:\n> He said, \"**How** fast you run!\"",
+                "back": "He **exclaimed** (or remarked) that **I ran very fast**."
+            },
+            {
+                "front": "13. Change to Indirect:\n> She said, \"**Ugh!** This tastes terrible.\"",
+                "back": "She **exclaimed with disgust** that **it tasted** terrible."
+            },
+            {
+                "front": "14. Change to Indirect:\n> He said, \"**Good morning**, sir.\"",
+                "back": "He **respectfully wished** him a good morning."
+            },
+            {
+                "front": "15. Change to Indirect:\n> She said, \"**Goodbye**, friends.\"",
+                "back": "She **bade goodbye** to her friends."
+            },
+            {
+                "front": "16. Change to Indirect:\n> The beggar said, \"Please, please give me some food.\"",
+                "back": "The beggar **begged** for some food."
+            },
+            {
+                "front": "17. Change to Indirect:\n> The boss said, \"**Send** the email immediately.\"",
+                "back": "The boss **ordered** him **to send** the email immediately."
+            },
+            {
+                "front": "18. Change to Indirect:\n> She said to her son, \"**Remember** to lock the door.\"",
+                "back": "She **reminded** her son **to lock** the door."
+            },
+            {
+                "front": "19. Change to Indirect:\n> He said, \"**What** a tragedy!\"",
+                "back": "He **exclaimed** that **it was a great** tragedy."
+            },
+            {
+                "front": "20. Change to Indirect:\n> She said, \"**Bravo!** You played well.\"",
+                "back": "She **applauded** him, saying that **he had played well**."
+            }
+        ]
+    }
+]
