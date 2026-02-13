@@ -1,8 +1,9 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	let { id, title, description, cardCount } = $props();
 </script>
 
-<a href="/deck/{id}" class="group block">
+<a href="{base}/deck/{id}" class="group block">
 	<div
 		class="flex h-full transform flex-col justify-between rounded-xl border-2 border-red-500 bg-black p-6 transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_0_20px_rgba(255,0,0,0.4)]"
 	>

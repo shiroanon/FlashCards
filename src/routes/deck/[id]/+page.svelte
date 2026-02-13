@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Flashcard from '$lib/components/Flashcard.svelte';
 	import { page } from '$app/state';
+	import { base } from '$app/paths';
 
 	import { onMount } from 'svelte';
 	import { gsap } from 'gsap';
@@ -74,7 +75,7 @@
 
 <div class="relative flex min-h-screen flex-col items-center justify-center gap-8 p-4">
 	<a
-		href="/"
+		href="{base}/"
 		class="absolute top-8 left-8 flex items-center gap-2 text-sm font-bold tracking-widest text-red-500 uppercase transition-colors hover:text-white"
 	>
 		← Back to Decks
