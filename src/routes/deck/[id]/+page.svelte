@@ -76,14 +76,14 @@
 <div class="relative flex min-h-screen flex-col items-center justify-center gap-8 p-4">
 	<a
 		href="{base}/"
-		class="absolute top-8 left-8 flex items-center gap-2 text-sm font-bold tracking-widest text-red-500 uppercase transition-colors hover:text-white"
+		class="absolute top-8 left-8 flex items-center gap-2 text-sm font-bold tracking-widest text-sky-300 uppercase transition-colors hover:text-sky-100"
 	>
 		← Back to Decks
 	</a>
 
 	<div class="mb-4 text-center">
-		<h2 class="mb-1 text-2xl font-bold text-red-500">{deck.title}</h2>
-		<p class="text-sm text-gray-500">{deck.description}</p>
+		<h2 class="mb-1 text-2xl font-bold text-sky-200">{deck.title}</h2>
+		<p class="text-sm text-slate-400">{deck.description}</p>
 	</div>
 
 	<div class="w-full max-w-md" bind:this={cardContainer}>
@@ -99,17 +99,17 @@
 		<button
 			onclick={prevCard}
 			disabled={currentIndex === 0}
-			class="rounded-lg border-2 border-red-500 px-6 py-2 font-bold tracking-wider text-red-500 uppercase shadow-[0_0_10px_rgba(255,0,0,0.3)] transition-colors hover:bg-red-500 hover:text-black disabled:cursor-not-allowed disabled:opacity-50"
+			class="rounded-lg border border-sky-500/50 bg-sky-500/10 px-5 py-2 text-sm font-semibold tracking-wider text-sky-200 transition hover:border-sky-400 disabled:cursor-not-allowed disabled:opacity-40"
 		>
 			Previous
 		</button>
-		<span class="mx-4 font-mono text-lg text-red-500">
+		<span class="font-mono text-sm text-sky-300">
 			{currentIndex + 1} / {cards.length}
 		</span>
 		<button
 			onclick={nextCard}
 			disabled={currentIndex === cards.length - 1}
-			class="rounded-lg border-2 border-red-500 px-6 py-2 font-bold tracking-wider text-red-500 uppercase shadow-[0_0_10px_rgba(255,0,0,0.3)] transition-colors hover:bg-red-500 hover:text-black disabled:cursor-not-allowed disabled:opacity-50"
+			class="rounded-lg border border-indigo-500/50 bg-indigo-500/10 px-5 py-2 text-sm font-semibold tracking-wider text-indigo-200 transition hover:border-indigo-400 disabled:cursor-not-allowed disabled:opacity-40"
 		>
 			Next
 		</button>

@@ -30,26 +30,26 @@
 	>
 		<!-- Front Face -->
 		<div
-			class="face front absolute flex h-full w-full flex-col items-center justify-center overflow-auto rounded-xl border-2 border-red-500 bg-black p-8 text-center shadow-[0_0_15px_rgba(255,0,0,0.5)] backface-hidden"
+			class="face front absolute flex h-full w-full flex-col items-center justify-center overflow-auto rounded-xl border border-sky-500/40 bg-slate-950/60 p-8 text-center shadow-[0_0_20px_rgba(14,165,233,0.15)] backface-hidden"
 		>
 			<div
-				class="prose max-w-none prose-invert prose-headings:text-red-400 prose-p:text-3xl prose-li:text-3xl"
+				class="prose max-w-none prose-invert prose-headings:text-sky-300 prose-p:text-2xl prose-li:text-2xl prose-p:leading-relaxed prose-li:leading-relaxed"
 			>
 				{@html frontHtml}
 			</div>
-			<div class="absolute bottom-4 text-sm tracking-widest text-red-600/50 uppercase">Front</div>
+			<div class="absolute bottom-4 text-xs tracking-widest text-sky-400/50 uppercase">Front</div>
 		</div>
 
 		<!-- Back Face -->
 		<div
-			class="face back absolute flex h-full w-full rotate-y-180 flex-col items-center justify-center overflow-auto rounded-xl border-2 border-red-500 bg-black p-8 text-center shadow-[0_0_15px_rgba(255,0,0,0.5)] backface-hidden"
+			class="face back absolute flex h-full w-full rotate-y-180 flex-col items-center justify-center overflow-auto rounded-xl border border-indigo-500/40 bg-slate-950/60 p-8 text-center shadow-[0_0_20px_rgba(99,102,241,0.15)] backface-hidden"
 		>
 			<div
-				class="prose max-w-none prose-invert prose-headings:text-red-400 prose-p:text-3xl prose-li:text-3xl"
+				class="prose max-w-none prose-invert prose-headings:text-indigo-300 prose-p:text-2xl prose-li:text-2xl prose-p:leading-relaxed prose-li:leading-relaxed"
 			>
 				{@html backHtml}
 			</div>
-			<div class="absolute bottom-4 text-sm tracking-widest text-red-500/50 uppercase">Back</div>
+			<div class="absolute bottom-4 text-xs tracking-widest text-indigo-400/50 uppercase">Back</div>
 		</div>
 	</div>
 </div>
@@ -83,6 +83,6 @@
 		border-radius: 4px;
 	}
 	.face::-webkit-scrollbar-thumb:hover {
-		background: #dc2626;
+		background: #0ea5e9;
 	}
 </style>
