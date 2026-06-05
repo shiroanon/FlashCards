@@ -1,9 +1,10 @@
 [
-    {
-        "id": "intro",
-        "title": "Introduction to Flashcards",
-        "description": "Learn the basics of this app.",
-        "cards": [
+ {
+  "id": "intro",
+  "title": "Introduction to Flashcards",
+  "description": "Learn the basics of this app.",
+  "progress": 30,
+  "cards": [
             {
                 "front": "# Welcome\nClick this card to flip it!",
                 "back": "You found the back! **Markdown** is supported."
@@ -19,10 +20,11 @@
         ]
     },
     {
-        "id": "math-101",
-        "title": "Math 101",
-        "description": "Basic Calculus and Algebra.",
-        "cards": [
+     "id": "math-101",
+     "title": "Math 101",
+     "description": "Basic Calculus and Algebra.",
+     "progress": 65,
+     "cards": [
             {
                 "front": "What is the derivative of $x^2$?",
                 "back": "$$ \\frac{d}{dx} x^2 = 2x $$"
@@ -38,10 +40,11 @@
         ]
     },
     {
-        "id": "coding-concepts",
-        "title": "Coding Concepts",
-        "description": "Programming fundamentals.",
-        "cards": [
+     "id": "coding-concepts",
+     "title": "Coding Concepts",
+     "description": "Programming fundamentals.",
+     "progress": 15,
+     "cards": [
             {
                 "front": "What is a **Closure**?",
                 "back": "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment)."
@@ -53,10 +56,11 @@
         ]
     },
     {
-        "id": "reported-statements",
-        "title": "Direct to Indirect: Statements",
-        "description": "Practice converting 20 assertive sentences, focusing on tense and pronoun changes.",
-        "cards": [
+     "id": "reported-statements",
+     "title": "Direct to Indirect: Statements",
+     "description": "Practice converting 20 assertive sentences, focusing on tense and pronoun changes.",
+     "progress": 45,
+     "cards": [
             {
                 "front": "Change to Indirect:\n> He said, \"I work in a factory.\"",
                 "back": "He said that **he worked** in a factory.\n*(Simple Present \u2192 Simple Past)*"

@@ -3,16 +3,12 @@
 
 	let { front, back, flipped = false, onclick } = $props();
 
-	// We render markdown for both sides
-	// Using $derived to reactively update when props change
 	let frontHtml = $derived(renderMarkdown(front));
 	let backHtml = $derived(renderMarkdown(back));
 </script>
 
-<!-- Container/Scene -->
-<!-- Container/Scene -->
 <div
-	class="scene perspective-1000 h-[600px] w-full cursor-pointer rounded-xl focus:outline-none"
+	class="scene perspective-1000 h-[560px] w-full cursor-pointer rounded-3xl focus:outline-none"
 	{onclick}
 	onkeydown={(e) => {
 		if (e.key === 'Enter' || e.key === ' ') {
@@ -23,33 +19,28 @@
 	role="button"
 	tabindex="0"
 >
-	<!-- Card Object -->
 	<div
-		class="card transform-style-3d relative h-full w-full transition-transform duration-300"
+		class="card transform-style-3d relative h-full w-full transition-transform duration-500 ease-out"
 		class:flipped
 	>
 		<!-- Front Face -->
 		<div
-			class="face front absolute flex h-full w-full flex-col items-center justify-center overflow-auto rounded-xl border border-sky-500/40 bg-slate-950/60 p-8 text-center shadow-[0_0_20px_rgba(14,165,233,0.15)] backface-hidden"
+			class="face front absolute flex h-full w-full flex-col items-center justify-center overflow-auto rounded-3xl border border-outline-variant bg-surface-container-lowest p-8 text-center shadow-[0_4px_24px_rgba(30,41,59,0.06)] backface-hidden"
 		>
-			<div
-				class="prose max-w-none prose-invert prose-headings:text-sky-300 prose-p:text-2xl prose-li:text-2xl prose-p:leading-relaxed prose-li:leading-relaxed"
-			>
+			<div class="prose max-w-none prose-headings:text-on-background prose-p:text-lg prose-li:text-lg prose-p:leading-relaxed prose-li:leading-relaxed prose-p:text-on-surface prose-li:text-on-surface">
 				{@html frontHtml}
 			</div>
-			<div class="absolute bottom-4 text-xs tracking-widest text-sky-400/50 uppercase">Front</div>
+			<div class="absolute bottom-4 text-xs font-semibold tracking-widest text-on-surface-variant/60 uppercase">Front</div>
 		</div>
 
 		<!-- Back Face -->
 		<div
-			class="face back absolute flex h-full w-full rotate-y-180 flex-col items-center justify-center overflow-auto rounded-xl border border-indigo-500/40 bg-slate-950/60 p-8 text-center shadow-[0_0_20px_rgba(99,102,241,0.15)] backface-hidden"
+			class="face back absolute flex h-full w-full rotate-y-180 flex-col items-center justify-center overflow-auto rounded-3xl border border-outline-variant bg-surface-container-lowest p-8 text-center shadow-[0_4px_24px_rgba(30,41,59,0.06)] backface-hidden"
 		>
-			<div
-				class="prose max-w-none prose-invert prose-headings:text-indigo-300 prose-p:text-2xl prose-li:text-2xl prose-p:leading-relaxed prose-li:leading-relaxed"
-			>
+			<div class="prose max-w-none prose-headings:text-on-background prose-p:text-lg prose-li:text-lg prose-p:leading-relaxed prose-li:leading-relaxed prose-p:text-on-surface prose-li:text-on-surface">
 				{@html backHtml}
 			</div>
-			<div class="absolute bottom-4 text-xs tracking-widest text-indigo-400/50 uppercase">Back</div>
+			<div class="absolute bottom-4 text-xs font-semibold tracking-widest text-on-surface-variant/60 uppercase">Back</div>
 		</div>
 	</div>
 </div>
@@ -71,18 +62,18 @@
 		transform: rotateY(180deg);
 	}
 
-	/* Scrollbar styling for content overflow */
+	/* Scrollbar styling */
 	.face::-webkit-scrollbar {
 		width: 8px;
 	}
 	.face::-webkit-scrollbar-track {
-		background: #000;
+		background: transparent;
 	}
 	.face::-webkit-scrollbar-thumb {
-		background: #ef4444;
+		background: #c3c6d4;
 		border-radius: 4px;
 	}
 	.face::-webkit-scrollbar-thumb:hover {
-		background: #0ea5e9;
+		background: #1a58b7;
 	}
 </style>
