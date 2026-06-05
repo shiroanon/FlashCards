@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { gsap } from 'gsap';
 	import decks from '$lib/data/decks.json';
+	import { base } from '$app/paths';
 
 	type Deck = (typeof decks)[number] & { progress?: number };
 	let deckContainer: HTMLElement;
@@ -94,8 +95,8 @@
 		const next = Math.min(100, current + 15);
 		saveProgress(deck.id, next);
 		setTimeout(() => {
-			window.location.href = `/deck/${deck.id}`;
-		}, 200);
+			window.location.href = `${base}/deck/${deck.id}`;
+		}, 220);
 	}
 </script>
 
